@@ -1,0 +1,8 @@
+<div class="building">
+  <div class="floors">
+    <app-floor *ngFor="let floor of floors" [floorNumber]="floor"></app-floor>
+  </div>
+  <div class="elevators">
+    <app-elevator *ngFor="let elevator of elevators" [id]="elevator"></app-elevator>
+  </div>
+</div>
